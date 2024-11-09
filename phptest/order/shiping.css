@@ -1,0 +1,19 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.ship {
+    position: absolute;
+    background-color: #FFA500;
+    display: flex;
+   align-items:unset;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    height: 60px;
+}

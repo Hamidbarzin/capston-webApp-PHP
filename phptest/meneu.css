@@ -1,0 +1,31 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.navbar {
+    background-color: #FFA500;
+    display: flex;
+   align-items:unset;
+    padding: 15px 20px;
+    height: 100px;
+    width: 100%;
+}
+.logo {
+    margin-right: auto;
+    height: 60px;
+}
+.navbar a {
+    float:right;
+    display: block;
+    color: rgb(11, 0, 0);
+    text-align: center;
+    padding: 40px 30px;
+    text-decoration: none;   
+}
+.navbar a:hover {
+    background-color: #FFA500;
+    color: #000;
+    
+}
+    

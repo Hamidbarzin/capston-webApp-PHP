@@ -1,0 +1,70 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.About {
+    position: absolute;
+    background-color: #FFA500;
+    display: flex;
+   align-items:unset;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    height: 60px;
+}
+.About a {
+    float:right;
+    display: block;
+    color: rgb(11, 0, 0);
+    text-align: center;
+    padding: 40px 30px;
+    text-decoration: none;   
+}
+.image {
+     width:600px;
+     height: 400px;
+     float:right;
+}
+
+/* Body and HTML setup */
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+/* Main content area */
+.about-content {
+    padding-bottom: 50px; /* Space for the footer */
+}
+
+/* Footer Styling */
+footer {
+position: absolute;
+    bottom: 0;
+  height: 30px;
+  width: 100%;
+    background-color: #FFA500; 
+    padding: 10px 15px;
+    display: flex;
+    align-items:unset;
+     padding: 20px;
+     height:100px;
+     text-align: center;
+}
+
+     
+.ins img {
+    width: 48px !important;
+    height: 48px;
+   position: relative;
+   left: 1000px;
+   
+
+
+}
